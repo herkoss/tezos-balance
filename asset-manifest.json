@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/tezos-balances/static/css/main.7627d23d.chunk.css",
+    "main.js": "/tezos-balances/static/js/main.fa8aaa63.chunk.js",
+    "main.js.map": "/tezos-balances/static/js/main.fa8aaa63.chunk.js.map",
+    "runtime-main.js": "/tezos-balances/static/js/runtime-main.8b76d3cb.js",
+    "runtime-main.js.map": "/tezos-balances/static/js/runtime-main.8b76d3cb.js.map",
+    "static/js/2.dfdccfaf.chunk.js": "/tezos-balances/static/js/2.dfdccfaf.chunk.js",
+    "static/js/2.dfdccfaf.chunk.js.map": "/tezos-balances/static/js/2.dfdccfaf.chunk.js.map",
+    "static/js/3.6c338f64.chunk.js": "/tezos-balances/static/js/3.6c338f64.chunk.js",
+    "static/js/3.6c338f64.chunk.js.map": "/tezos-balances/static/js/3.6c338f64.chunk.js.map",
+    "index.html": "/tezos-balances/index.html",
+    "static/css/main.7627d23d.chunk.css.map": "/tezos-balances/static/css/main.7627d23d.chunk.css.map",
+    "static/js/2.dfdccfaf.chunk.js.LICENSE.txt": "/tezos-balances/static/js/2.dfdccfaf.chunk.js.LICENSE.txt",
+    "static/media/Table.module.css": "/tezos-balances/static/media/delete-icon.095c9b0d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b76d3cb.js",
+    "static/js/2.dfdccfaf.chunk.js",
+    "static/css/main.7627d23d.chunk.css",
+    "static/js/main.fa8aaa63.chunk.js"
+  ]
+}
