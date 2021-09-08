@@ -1,6 +1,6 @@
 {
   "name": "tezos-balances",
-  "version": "0.1.0",
+  "homepage": "https://herkoss.github.io/tezos-balances",
   "private": true,
   "dependencies": {
     "@taquito/taquito": "^10.1.0",
@@ -19,6 +19,7 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

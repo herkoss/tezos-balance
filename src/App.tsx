@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { TezosToolkit } from '@taquito/taquito';
-import cn from 'classnames';
+import { Table } from "./components/Table/Table";
+import { FindBalance } from "./components/FindBalance/FindBalance";
 import styles from './App.module.css';
 
 const tezos = new TezosToolkit('https://mainnet-node.madfish.solutions');
 
-interface AddressInfo {
+export interface AddressInfo {
+  id: number;
   publicKeyHash: string;
   balance: number;
 }
@@ -35,6 +37,7 @@ function App() {
       setBalances(prevState => {
         if (Array.isArray(balance.c) && typeof balance.c[0] === 'number') {
           return [...prevState, {
+            id: Number(new Date()),
             publicKeyHash: publicKeyHash,
             balance: balance.c[0],
           }];
@@ -49,62 +52,21 @@ function App() {
     }
   };
 
-  const deleteBalanceFromBalances = (publicKeyHash: string) => {
-    const filteredBalances = balances.filter(balance => balance.publicKeyHash !== publicKeyHash);
+  const deleteBalanceFromBalances = (id: number) => {
+    const filteredBalances = balances.filter(balance => balance.id !== id);
     setBalances(filteredBalances);
   };
 
   return (
     <div className={styles.App}>
-      <div className={styles.container}>
-        <div className={styles.cotrolsWrapper}>
-          <input
-            className={cn(styles.inputPublicKeyHash, {
-              [styles.invalidPublicKeyHash]: !isResponseValid,
-            })}
-            value={publicKeyHash}
-            onChange={(event) => setPublicKeyHash(event.target.value.trim())}
-            onFocus={() => setIsResponseValid(true)}
-            placeholder="Enter Public Key Hash here..."
-          />
-
-          <button
-            className={styles.add}
-            onClick={getBalanceByKey}
-          >
-            Add
-          </button>
-        </div>
-        {!isResponseValid &&  (
-          <span className={styles.help}>Not valid Public Hash Key</span>
-        )}
-      </div>
-      <div>
-        <table>
-          <caption className={styles.caption}>Check balance by Public Key Hash</caption>
-          <thead>
-            <tr>
-              <th>Public Key Hash</th>
-              <th>Balance(XTZ)</th>
-              <th>Delete</th>
-            </tr>
-          </thead>
-          <tbody>
-           {balances.map(({publicKeyHash, balance}) => (
-             <tr key={publicKeyHash}>
-               <td>{publicKeyHash}</td>
-               <td>{balance}</td>
-               <td>
-                 <button
-                   className={styles.delete}
-                   onClick={() => deleteBalanceFromBalances(publicKeyHash)}
-                 />
-               </td>
-             </tr>
-           ))}
-          </tbody>
-        </table>
-      </div>
+      <FindBalance
+        isResponseValid={isResponseValid}
+        publicKeyHash={publicKeyHash}
+        setIsResponseValid={setIsResponseValid}
+        getBalanceByKey={getBalanceByKey}
+        setPublicKeyHash={setPublicKeyHash}
+      />
+      <Table balances={balances} deleteBalanceFromBalances={deleteBalanceFromBalances} />
     </div>
   );
 }

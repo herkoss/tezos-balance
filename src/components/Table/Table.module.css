@@ -1,0 +1,38 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.caption {
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+tr {
+  height: 32px;
+  border: 1px solid #ccc;
+}
+
+td {
+  text-align: center;
+}
+
+.delete {
+  display: block;
+  margin: 0 auto;
+  height: 24px;
+  width: 24px;
+  border: none;
+  border-radius: 50%;
+  background-color: #fff;
+  background-image: url("./delete-icon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 24px;
+  transition: all 0.3s;
+}
+
+.delete:hover {
+  cursor: pointer;
+  transform: scale(1.25);
+}
