@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/tezos-balance/static/css/main.d80a42a6.chunk.css",
-    "main.js": "/tezos-balance/static/js/main.c9a7958c.chunk.js",
-    "main.js.map": "/tezos-balance/static/js/main.c9a7958c.chunk.js.map",
+    "main.js": "/tezos-balance/static/js/main.7758dfd1.chunk.js",
+    "main.js.map": "/tezos-balance/static/js/main.7758dfd1.chunk.js.map",
     "runtime-main.js": "/tezos-balance/static/js/runtime-main.071ffc0d.js",
     "runtime-main.js.map": "/tezos-balance/static/js/runtime-main.071ffc0d.js.map",
     "static/js/2.72da4d97.chunk.js": "/tezos-balance/static/js/2.72da4d97.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.071ffc0d.js",
     "static/js/2.72da4d97.chunk.js",
     "static/css/main.d80a42a6.chunk.css",
-    "static/js/main.c9a7958c.chunk.js"
+    "static/js/main.7758dfd1.chunk.js"
   ]
 }
