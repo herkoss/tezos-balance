@@ -1,6 +1,6 @@
 {
-  "name": "tezos-balances",
-  "homepage": "https://herkoss.github.io/tezos-balances",
+  "name": "tezos-balance",
+  "homepage": "https://herkoss.github.io/tezos-balance",
   "private": true,
   "dependencies": {
     "@taquito/taquito": "^10.1.0",
@@ -12,6 +12,7 @@
     "@types/react": "^17.0.20",
     "@types/react-dom": "^17.0.9",
     "classnames": "^2.3.1",
+    "gh-pages": "^3.2.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
