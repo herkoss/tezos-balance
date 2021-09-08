@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/tezos-balances/static/css/main.7627d23d.chunk.css",
-    "main.js": "/tezos-balances/static/js/main.fa8aaa63.chunk.js",
-    "main.js.map": "/tezos-balances/static/js/main.fa8aaa63.chunk.js.map",
-    "runtime-main.js": "/tezos-balances/static/js/runtime-main.8b76d3cb.js",
-    "runtime-main.js.map": "/tezos-balances/static/js/runtime-main.8b76d3cb.js.map",
-    "static/js/2.dfdccfaf.chunk.js": "/tezos-balances/static/js/2.dfdccfaf.chunk.js",
-    "static/js/2.dfdccfaf.chunk.js.map": "/tezos-balances/static/js/2.dfdccfaf.chunk.js.map",
-    "static/js/3.6c338f64.chunk.js": "/tezos-balances/static/js/3.6c338f64.chunk.js",
-    "static/js/3.6c338f64.chunk.js.map": "/tezos-balances/static/js/3.6c338f64.chunk.js.map",
-    "index.html": "/tezos-balances/index.html",
-    "static/css/main.7627d23d.chunk.css.map": "/tezos-balances/static/css/main.7627d23d.chunk.css.map",
-    "static/js/2.dfdccfaf.chunk.js.LICENSE.txt": "/tezos-balances/static/js/2.dfdccfaf.chunk.js.LICENSE.txt",
-    "static/media/Table.module.css": "/tezos-balances/static/media/delete-icon.095c9b0d.png"
+    "main.css": "/tezos-balance/static/css/main.d80a42a6.chunk.css",
+    "main.js": "/tezos-balance/static/js/main.c9a7958c.chunk.js",
+    "main.js.map": "/tezos-balance/static/js/main.c9a7958c.chunk.js.map",
+    "runtime-main.js": "/tezos-balance/static/js/runtime-main.071ffc0d.js",
+    "runtime-main.js.map": "/tezos-balance/static/js/runtime-main.071ffc0d.js.map",
+    "static/js/2.72da4d97.chunk.js": "/tezos-balance/static/js/2.72da4d97.chunk.js",
+    "static/js/2.72da4d97.chunk.js.map": "/tezos-balance/static/js/2.72da4d97.chunk.js.map",
+    "static/js/3.1eb03ad0.chunk.js": "/tezos-balance/static/js/3.1eb03ad0.chunk.js",
+    "static/js/3.1eb03ad0.chunk.js.map": "/tezos-balance/static/js/3.1eb03ad0.chunk.js.map",
+    "index.html": "/tezos-balance/index.html",
+    "static/css/main.d80a42a6.chunk.css.map": "/tezos-balance/static/css/main.d80a42a6.chunk.css.map",
+    "static/js/2.72da4d97.chunk.js.LICENSE.txt": "/tezos-balance/static/js/2.72da4d97.chunk.js.LICENSE.txt",
+    "static/media/Table.module.css": "/tezos-balance/static/media/delete-icon.095c9b0d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.8b76d3cb.js",
-    "static/js/2.dfdccfaf.chunk.js",
-    "static/css/main.7627d23d.chunk.css",
-    "static/js/main.fa8aaa63.chunk.js"
+    "static/js/runtime-main.071ffc0d.js",
+    "static/js/2.72da4d97.chunk.js",
+    "static/css/main.d80a42a6.chunk.css",
+    "static/js/main.c9a7958c.chunk.js"
   ]
 }
